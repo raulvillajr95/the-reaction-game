@@ -7,10 +7,8 @@ start()
 let playStatus = 0;
 
 mainButton.addEventListener('click', () => {
-  if (status == 'start') {
+  if (status === 'start') {
     progress()
-  } else if (status == 'progressing') {
-    play()
   } else if (status == 'now') {
     if (playStatus == 1) {
       playStatus += 1
