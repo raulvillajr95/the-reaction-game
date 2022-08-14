@@ -51,8 +51,8 @@ body {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
-  background: linear-gradient(170deg, #264653, #2a9d8f);
-  color: white;
+  background: linear-gradient(170deg, #b2d3df, #7eb6b0);
+  color: #141414;
 }
 
 div.main-button {
