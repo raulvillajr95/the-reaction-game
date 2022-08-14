@@ -57,31 +57,4 @@ function play() {
   console.log(status)
   started = Date.now()
   playStatus = 1;
-
-  /* 
-  when button is press now again,
-  start get new time and calculate how long it took
-  */
-
-  // setTimeout(() => {
-  //   const end = Date.now()
-  //   const total = end - started
-
-  //   console.log(total)
-  // }, 1000)
-
-  // console.log(start)
 }
-
-/*
-when green is on, start timer
-
-when start click to turn red
-when red, start timer for random time(within 10 secs)
-  after time is up, turn green
-when green, start timer
-  press and get timer amount and stop timer
-    display timer on bottom
-  press again return to start
-press 
-*/

@@ -118,3 +118,18 @@ div.main-button h1 {
     width: 2.5rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  /* My CSS */
+  body {
+    background: linear-gradient(170deg, #152830, #1a6960);
+    color: #f3f3f3;
+  }
+
+  div.main-button {
+    background-color: rgb(169, 169, 169);
+  }
+  div.main-button h1 {
+    color: #141414;
+  }
+}
