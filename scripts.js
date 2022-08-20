@@ -2,7 +2,7 @@ const mainButton = document.querySelector('div.main-button');
 const mainText = document.querySelector('div.main-button h1');
 
 let status = '';
-start()
+start();
 
 let playStatus = 0;
 

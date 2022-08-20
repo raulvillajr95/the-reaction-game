@@ -1,3 +1,8 @@
+:root {
+  --almost-black: #141414;
+  --almost-white: #f3f3f3;
+}
+
 /* My CSS */
 body {
   display: flex;
@@ -7,7 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
   background: linear-gradient(170deg, #b2d3df, #7eb6b0);
-  color: #141414;
+  color: var(--almost-black);
 }
 
 div.main-button {
@@ -22,7 +27,7 @@ div.main-button {
 div.main-button h1 {
   font-size: 3rem;
   text-align: center;
-  color: #141414;
+  color: var(--almost-black);
 }
 
 .title {
@@ -41,16 +46,12 @@ div.main-button h1 {
 
 /* Tablet CSS */
 @media only screen and (max-width: 70em) {
-  .logo-anchor {
-    top: 18rem;
-  }
+  .logo-anchor {top: 18rem}
 }
 
 /* Mobile CSS */
 @media only screen and (max-width: 38em) {
-  .logo-anchor {
-    top: 9rem;
-  }
+  .logo-anchor {top: 9rem}
 }
 
 /* Small Mobile CSS */
@@ -60,31 +61,18 @@ div.main-button h1 {
     width: 12rem;
     border-radius: 0.75rem;
   }
-  div.main-button h1 {
-    font-size: 2.25rem;
-  }
-  .title {
-    font-size: 1.75rem;
-  }
-  .logo-anchor {
-    top: 4rem;
-  }
-  .doodledee-img {
-    width: 2.5rem;
-  }
+  div.main-button h1 {font-size: 2.25rem}
+  .title {font-size: 1.75rem}
+  .logo-anchor {top: 4rem}
+  .doodledee-img {width: 2.5rem}
 }
 
 @media (prefers-color-scheme: dark) {
   /* My CSS */
   body {
     background: linear-gradient(170deg, #152830, #1a6960);
-    color: #f3f3f3;
+    color: var(--almost-white);
   }
-
-  div.main-button {
-    background-color: rgb(169, 169, 169);
-  }
-  div.main-button h1 {
-    color: #141414;
-  }
+  div.main-button {background-color: rgb(169, 169, 169)}
+  div.main-button h1 {color: var(--almost-black)}
 }
